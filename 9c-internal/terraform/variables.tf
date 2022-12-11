@@ -51,7 +51,7 @@ variable "private_subnets" {
 variable "node_groups" {
   description = "List of node group config"
   default = {
-    "9c-sample" = {
+    "9c-internal" = {
       instance_types    = ["c5.large"]
       availability_zone = "us-east-2a"
       desired_size      = 10
